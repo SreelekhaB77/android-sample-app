@@ -22,7 +22,7 @@
         android:label="@string/app_name"
         tools:replace="android:icon"
         android:theme="@style/AppTheme">
-        tools:replace="android:icon"
+        tools:node="replace"
         <activity
             android:name=".activities.TransactionOverviewActivity"
             android:label="@string/app_name">
