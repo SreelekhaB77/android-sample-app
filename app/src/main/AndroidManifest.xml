@@ -20,9 +20,9 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        tools:replace="android:icon"
+        tools:replace="android:icon, android:label"
         android:theme="@style/AppTheme">
-        tools:node="replace"
+    
         <activity
             android:name=".activities.TransactionOverviewActivity"
             android:label="@string/app_name">
